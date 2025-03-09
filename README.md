@@ -20,6 +20,7 @@ flexbox中心のレイアウト設計で、コードのシンプル化と柔軟�
 ハンバーガーメニューはjQueryで開閉処理を実装。
 メニュー展開時のスクロールロックなど、スマホユーザーの操作性にも配慮。
 ページトップボタンの表示・非表示もスクロールイベントで制御。
+
 $('.navi_open').on('click',function(){
     $('.nav').toggleClass('cross');
     $('.navi_close').fadeToggle(300);
